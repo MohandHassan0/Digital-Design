@@ -1,0 +1,672 @@
+In mode: Internal_scan...
+  Design has scan chains in this mode
+  Design is scan routed
+  Post-DFT DRC enabled
+
+Information: Starting test design rule checking. (TEST-222)
+  Loading test protocol
+  ...basic checks...
+  ...basic sequential cell checks...
+  ...checking vector rules...
+  ...checking clock rules...
+  ...checking scan chain rules...
+  ...checking scan compression rules...
+  ...checking X-state rules...
+  ...checking tristate rules...
+  ...extracting scan details...
+
+-----------------------------------------------------------------
+Begin Clock violations...
+
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (CTRL_UNIT/current_reg[0]). (C26-1)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (CTRL_UNIT/current_reg[3]). (C26-2)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (CTRL_UNIT/current_reg[2]). (C26-3)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (CTRL_UNIT/current_reg[1]). (C26-4)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[3][0]). (C26-5)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[13][7]). (C26-6)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[13][6]). (C26-7)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[13][5]). (C26-8)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[13][4]). (C26-9)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[13][3]). (C26-10)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[13][2]). (C26-11)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[13][1]). (C26-12)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[13][0]). (C26-13)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[9][7]). (C26-14)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[9][6]). (C26-15)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[9][5]). (C26-16)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[9][4]). (C26-17)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[9][3]). (C26-18)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[9][2]). (C26-19)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[9][1]). (C26-20)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[9][0]). (C26-21)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[5][7]). (C26-22)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[5][6]). (C26-23)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[5][5]). (C26-24)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[5][4]). (C26-25)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[5][3]). (C26-26)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[5][2]). (C26-27)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[5][1]). (C26-28)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[5][0]). (C26-29)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[15][7]). (C26-30)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[15][6]). (C26-31)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[15][5]). (C26-32)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[15][4]). (C26-33)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[15][3]). (C26-34)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[15][2]). (C26-35)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[15][1]). (C26-36)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[15][0]). (C26-37)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[11][7]). (C26-38)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[11][6]). (C26-39)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[11][5]). (C26-40)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[11][4]). (C26-41)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[11][3]). (C26-42)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[11][2]). (C26-43)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[11][1]). (C26-44)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[11][0]). (C26-45)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[7][7]). (C26-46)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[7][6]). (C26-47)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[7][5]). (C26-48)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[7][4]). (C26-49)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[7][3]). (C26-50)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[7][2]). (C26-51)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[7][1]). (C26-52)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[7][0]). (C26-53)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[14][7]). (C26-54)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[14][6]). (C26-55)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[14][5]). (C26-56)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[14][4]). (C26-57)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[14][3]). (C26-58)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[14][2]). (C26-59)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[14][1]). (C26-60)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[14][0]). (C26-61)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[10][7]). (C26-62)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[10][6]). (C26-63)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[10][5]). (C26-64)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[10][4]). (C26-65)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[10][3]). (C26-66)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[10][2]). (C26-67)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[10][1]). (C26-68)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[10][0]). (C26-69)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[6][7]). (C26-70)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[6][6]). (C26-71)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[6][5]). (C26-72)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[6][4]). (C26-73)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[6][3]). (C26-74)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[6][2]). (C26-75)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[6][1]). (C26-76)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[6][0]). (C26-77)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[12][7]). (C26-78)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[12][6]). (C26-79)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[12][5]). (C26-80)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[12][4]). (C26-81)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[12][3]). (C26-82)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[12][2]). (C26-83)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[12][1]). (C26-84)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[12][0]). (C26-85)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[8][7]). (C26-86)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[8][6]). (C26-87)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[8][5]). (C26-88)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[8][4]). (C26-89)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[8][3]). (C26-90)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[8][2]). (C26-91)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[8][1]). (C26-92)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[8][0]). (C26-93)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[4][7]). (C26-94)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[4][6]). (C26-95)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[4][5]). (C26-96)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[4][4]). (C26-97)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[4][3]). (C26-98)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[4][2]). (C26-99)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[4][1]). (C26-100)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[4][0]). (C26-101)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/RdData_reg[7]). (C26-102)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/RdData_reg[6]). (C26-103)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/RdData_reg[5]). (C26-104)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/RdData_reg[4]). (C26-105)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/RdData_reg[3]). (C26-106)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/RdData_reg[2]). (C26-107)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/RdData_reg[1]). (C26-108)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/RdData_reg[0]). (C26-109)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[2][1]). (C26-110)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[2][0]). (C26-111)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[3][6]). (C26-112)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[3][7]). (C26-113)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/RdData_Valid_reg). (C26-114)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[3][5]). (C26-115)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[3][4]). (C26-116)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[3][2]). (C26-117)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[3][3]). (C26-118)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[3][1]). (C26-119)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[2][5]). (C26-120)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[2][2]). (C26-121)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[0][1]). (C26-122)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[0][0]). (C26-123)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[2][6]). (C26-124)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[2][4]). (C26-125)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[2][3]). (C26-126)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[0][2]). (C26-127)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[0][3]). (C26-128)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[0][4]). (C26-129)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[0][5]). (C26-130)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[0][6]). (C26-131)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[0][7]). (C26-132)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[1][5]). (C26-133)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[1][4]). (C26-134)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[1][7]). (C26-135)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[1][1]). (C26-136)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[1][3]). (C26-137)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[1][2]). (C26-138)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[1][6]). (C26-139)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[1][0]). (C26-140)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (REG_FILE/Reg_File_reg[2][7]). (C26-141)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Write_Full/internal_reg[3]). (C26-142)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Write_Full/internal_reg[2]). (C26-143)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Write_Full/internal_reg[0]). (C26-144)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Write_Full/internal_reg[1]). (C26-145)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Read_Empty/internal_reg[3]). (C26-146)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Read_Empty/internal_reg[2]). (C26-147)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Read_Empty/internal_reg[1]). (C26-148)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Read_Empty/internal_reg[0]). (C26-149)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[5][7]). (C26-150)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[5][6]). (C26-151)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[5][5]). (C26-152)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[5][4]). (C26-153)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[5][3]). (C26-154)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[5][2]). (C26-155)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[5][1]). (C26-156)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[5][0]). (C26-157)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[1][7]). (C26-158)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[1][6]). (C26-159)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[1][5]). (C26-160)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[1][4]). (C26-161)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[1][3]). (C26-162)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[1][2]). (C26-163)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[1][1]). (C26-164)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[1][0]). (C26-165)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[7][7]). (C26-166)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[7][6]). (C26-167)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[7][5]). (C26-168)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[7][4]). (C26-169)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[7][3]). (C26-170)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[7][2]). (C26-171)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[7][1]). (C26-172)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[7][0]). (C26-173)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[3][7]). (C26-174)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[3][6]). (C26-175)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[3][5]). (C26-176)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[3][4]). (C26-177)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[3][3]). (C26-178)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[3][2]). (C26-179)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[3][1]). (C26-180)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[3][0]). (C26-181)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[6][7]). (C26-182)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[6][6]). (C26-183)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[6][5]). (C26-184)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[6][4]). (C26-185)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[6][3]). (C26-186)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[6][2]). (C26-187)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[6][1]). (C26-188)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[6][0]). (C26-189)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[2][7]). (C26-190)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[2][6]). (C26-191)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[2][5]). (C26-192)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[2][4]). (C26-193)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[2][3]). (C26-194)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[2][2]). (C26-195)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[2][1]). (C26-196)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[2][0]). (C26-197)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[4][7]). (C26-198)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[4][6]). (C26-199)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[4][5]). (C26-200)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[4][4]). (C26-201)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[4][3]). (C26-202)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[4][2]). (C26-203)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[4][1]). (C26-204)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[4][0]). (C26-205)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[0][7]). (C26-206)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[0][6]). (C26-207)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[0][5]). (C26-208)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[0][4]). (C26-209)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[0][3]). (C26-210)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[0][2]). (C26-211)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[0][1]). (C26-212)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (FIFO/Memory/Memory_reg[0][0]). (C26-213)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (UART/RX/Sr/start_glitch_reg). (C26-214)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (UART/RX/Sp/stop_error_reg). (C26-215)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (UART/RX/DZ/P_DATA_reg[1]). (C26-216)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (UART/RX/DZ/P_DATA_reg[4]). (C26-217)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (UART/RX/DZ/P_DATA_reg[0]). (C26-218)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (UART/RX/DZ/P_DATA_reg[3]). (C26-219)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (UART/RX/DZ/P_DATA_reg[6]). (C26-220)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (UART/RX/DZ/P_DATA_reg[2]). (C26-221)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (UART/RX/DZ/P_DATA_reg[7]). (C26-222)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (UART/RX/DZ/P_DATA_reg[5]). (C26-223)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (UART/RX/P/par_error_reg). (C26-224)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs CK/D of stable DFF (UART/TX/F1/current_state_reg[0]). (C26-225)
+ Warning: Clock scan_rst used as data is different than capture clock scan_clk for inputs  of stable DFF (UART/TX/S1/Ser_data_reg). (C26-226)
+
+Clock violations completed...
+-----------------------------------------------------------------
+
+-----------------------------------------------------------------
+Begin Other violations...
+
+Warning: Cell ALU_GATING_CLK/U0_TLATNCAX4M has constant 1 value. (TEST-505)
+
+Other violations completed...
+-----------------------------------------------------------------
+
+-----------------------------------------------------------------
+  DRC Report
+
+  Total violations: 227
+
+-----------------------------------------------------------------
+
+226 CLOCK VIOLATIONS
+   226 Clock as data different from capture clock for stable cell violations (C26)
+
+1 OTHER VIOLATION
+     1 Cell is constant 1 violation (TEST-505)
+
+
+Warning: Violations occurred during test design rule checking. (TEST-124)
+
+-----------------------------------------------------------------
+  Sequential Cell Report
+
+  1 out of 334 sequential cells have violations
+
+-----------------------------------------------------------------
+
+SEQUENTIAL CELLS WITH VIOLATIONS
+      *   1 cell has constant 1 value
+         ALU_GATING_CLK/U0_TLATNCAX4M
+SEQUENTIAL CELLS WITHOUT VIOLATIONS
+      * 333 cells are valid scan cells
+         D1/SYNC_RST_reg
+         D1/chain_reg[0]
+         D2/chain_reg[0]
+         D2/SYNC_RST_reg
+         DATA_SYNC/final_reg
+         DATA_SYNC/enable_pulse_reg
+         DATA_SYNC/chain_reg[1]
+         DATA_SYNC/sync_bus_reg[3]
+         DATA_SYNC/sync_bus_reg[0]
+         DATA_SYNC/sync_bus_reg[1]
+         DATA_SYNC/sync_bus_reg[2]
+         DATA_SYNC/sync_bus_reg[7]
+         DATA_SYNC/sync_bus_reg[4]
+         DATA_SYNC/sync_bus_reg[5]
+         DATA_SYNC/sync_bus_reg[6]
+         DATA_SYNC/chain_reg[0]
+         PULSE_GENERATOR/rcv_flop_reg
+         PULSE_GENERATOR/pls_flop_reg
+         TX_CLK_DIV/count_reg[6]
+         TX_CLK_DIV/count_reg[0]
+         TX_CLK_DIV/count_reg[5]
+         TX_CLK_DIV/count_reg[4]
+         TX_CLK_DIV/count_reg[3]
+         TX_CLK_DIV/count_reg[2]
+         TX_CLK_DIV/count_reg[1]
+         TX_CLK_DIV/odd_edge_tog_reg
+         TX_CLK_DIV/div_clk_reg
+         RX_CLK_DIV/div_clk_reg
+         RX_CLK_DIV/count_reg[6]
+         RX_CLK_DIV/count_reg[0]
+         RX_CLK_DIV/count_reg[5]
+         RX_CLK_DIV/count_reg[4]
+         RX_CLK_DIV/count_reg[3]
+         RX_CLK_DIV/count_reg[2]
+         RX_CLK_DIV/count_reg[1]
+         RX_CLK_DIV/odd_edge_tog_reg
+         CTRL_UNIT/Address_REG_FILE_reg[2]
+         CTRL_UNIT/Address_REG_FILE_reg[3]
+         CTRL_UNIT/Address_REG_FILE_reg[1]
+         CTRL_UNIT/Address_REG_FILE_reg[0]
+         CTRL_UNIT/current_reg[0]
+         CTRL_UNIT/current_reg[3]
+         CTRL_UNIT/current_reg[2]
+         CTRL_UNIT/current_reg[1]
+         REG_FILE/Reg_File_reg[3][0]
+         REG_FILE/Reg_File_reg[13][7]
+         REG_FILE/Reg_File_reg[13][6]
+         REG_FILE/Reg_File_reg[13][5]
+         REG_FILE/Reg_File_reg[13][4]
+         REG_FILE/Reg_File_reg[13][3]
+         REG_FILE/Reg_File_reg[13][2]
+         REG_FILE/Reg_File_reg[13][1]
+         REG_FILE/Reg_File_reg[13][0]
+         REG_FILE/Reg_File_reg[9][7]
+         REG_FILE/Reg_File_reg[9][6]
+         REG_FILE/Reg_File_reg[9][5]
+         REG_FILE/Reg_File_reg[9][4]
+         REG_FILE/Reg_File_reg[9][3]
+         REG_FILE/Reg_File_reg[9][2]
+         REG_FILE/Reg_File_reg[9][1]
+         REG_FILE/Reg_File_reg[9][0]
+         REG_FILE/Reg_File_reg[5][7]
+         REG_FILE/Reg_File_reg[5][6]
+         REG_FILE/Reg_File_reg[5][5]
+         REG_FILE/Reg_File_reg[5][4]
+         REG_FILE/Reg_File_reg[5][3]
+         REG_FILE/Reg_File_reg[5][2]
+         REG_FILE/Reg_File_reg[5][1]
+         REG_FILE/Reg_File_reg[5][0]
+         REG_FILE/Reg_File_reg[15][7]
+         REG_FILE/Reg_File_reg[15][6]
+         REG_FILE/Reg_File_reg[15][5]
+         REG_FILE/Reg_File_reg[15][4]
+         REG_FILE/Reg_File_reg[15][3]
+         REG_FILE/Reg_File_reg[15][2]
+         REG_FILE/Reg_File_reg[15][1]
+         REG_FILE/Reg_File_reg[15][0]
+         REG_FILE/Reg_File_reg[11][7]
+         REG_FILE/Reg_File_reg[11][6]
+         REG_FILE/Reg_File_reg[11][5]
+         REG_FILE/Reg_File_reg[11][4]
+         REG_FILE/Reg_File_reg[11][3]
+         REG_FILE/Reg_File_reg[11][2]
+         REG_FILE/Reg_File_reg[11][1]
+         REG_FILE/Reg_File_reg[11][0]
+         REG_FILE/Reg_File_reg[7][7]
+         REG_FILE/Reg_File_reg[7][6]
+         REG_FILE/Reg_File_reg[7][5]
+         REG_FILE/Reg_File_reg[7][4]
+         REG_FILE/Reg_File_reg[7][3]
+         REG_FILE/Reg_File_reg[7][2]
+         REG_FILE/Reg_File_reg[7][1]
+         REG_FILE/Reg_File_reg[7][0]
+         REG_FILE/Reg_File_reg[14][7]
+         REG_FILE/Reg_File_reg[14][6]
+         REG_FILE/Reg_File_reg[14][5]
+         REG_FILE/Reg_File_reg[14][4]
+         REG_FILE/Reg_File_reg[14][3]
+         REG_FILE/Reg_File_reg[14][2]
+         REG_FILE/Reg_File_reg[14][1]
+         REG_FILE/Reg_File_reg[14][0]
+         REG_FILE/Reg_File_reg[10][7]
+         REG_FILE/Reg_File_reg[10][6]
+         REG_FILE/Reg_File_reg[10][5]
+         REG_FILE/Reg_File_reg[10][4]
+         REG_FILE/Reg_File_reg[10][3]
+         REG_FILE/Reg_File_reg[10][2]
+         REG_FILE/Reg_File_reg[10][1]
+         REG_FILE/Reg_File_reg[10][0]
+         REG_FILE/Reg_File_reg[6][7]
+         REG_FILE/Reg_File_reg[6][6]
+         REG_FILE/Reg_File_reg[6][5]
+         REG_FILE/Reg_File_reg[6][4]
+         REG_FILE/Reg_File_reg[6][3]
+         REG_FILE/Reg_File_reg[6][2]
+         REG_FILE/Reg_File_reg[6][1]
+         REG_FILE/Reg_File_reg[6][0]
+         REG_FILE/Reg_File_reg[12][7]
+         REG_FILE/Reg_File_reg[12][6]
+         REG_FILE/Reg_File_reg[12][5]
+         REG_FILE/Reg_File_reg[12][4]
+         REG_FILE/Reg_File_reg[12][3]
+         REG_FILE/Reg_File_reg[12][2]
+         REG_FILE/Reg_File_reg[12][1]
+         REG_FILE/Reg_File_reg[12][0]
+         REG_FILE/Reg_File_reg[8][7]
+         REG_FILE/Reg_File_reg[8][6]
+         REG_FILE/Reg_File_reg[8][5]
+         REG_FILE/Reg_File_reg[8][4]
+         REG_FILE/Reg_File_reg[8][3]
+         REG_FILE/Reg_File_reg[8][2]
+         REG_FILE/Reg_File_reg[8][1]
+         REG_FILE/Reg_File_reg[8][0]
+         REG_FILE/Reg_File_reg[4][7]
+         REG_FILE/Reg_File_reg[4][6]
+         REG_FILE/Reg_File_reg[4][5]
+         REG_FILE/Reg_File_reg[4][4]
+         REG_FILE/Reg_File_reg[4][3]
+         REG_FILE/Reg_File_reg[4][2]
+         REG_FILE/Reg_File_reg[4][1]
+         REG_FILE/Reg_File_reg[4][0]
+         REG_FILE/RdData_reg[7]
+         REG_FILE/RdData_reg[6]
+         REG_FILE/RdData_reg[5]
+         REG_FILE/RdData_reg[4]
+         REG_FILE/RdData_reg[3]
+         REG_FILE/RdData_reg[2]
+         REG_FILE/RdData_reg[1]
+         REG_FILE/RdData_reg[0]
+         REG_FILE/Reg_File_reg[2][1]
+         REG_FILE/Reg_File_reg[2][0]
+         REG_FILE/Reg_File_reg[3][6]
+         REG_FILE/Reg_File_reg[3][7]
+         REG_FILE/RdData_Valid_reg
+         REG_FILE/Reg_File_reg[3][5]
+         REG_FILE/Reg_File_reg[3][4]
+         REG_FILE/Reg_File_reg[3][2]
+         REG_FILE/Reg_File_reg[3][3]
+         REG_FILE/Reg_File_reg[3][1]
+         REG_FILE/Reg_File_reg[2][5]
+         REG_FILE/Reg_File_reg[2][2]
+         REG_FILE/Reg_File_reg[0][1]
+         REG_FILE/Reg_File_reg[0][0]
+         REG_FILE/Reg_File_reg[2][6]
+         REG_FILE/Reg_File_reg[2][4]
+         REG_FILE/Reg_File_reg[2][3]
+         REG_FILE/Reg_File_reg[0][2]
+         REG_FILE/Reg_File_reg[0][3]
+         REG_FILE/Reg_File_reg[0][4]
+         REG_FILE/Reg_File_reg[0][5]
+         REG_FILE/Reg_File_reg[0][6]
+         REG_FILE/Reg_File_reg[0][7]
+         REG_FILE/Reg_File_reg[1][5]
+         REG_FILE/Reg_File_reg[1][4]
+         REG_FILE/Reg_File_reg[1][7]
+         REG_FILE/Reg_File_reg[1][1]
+         REG_FILE/Reg_File_reg[1][3]
+         REG_FILE/Reg_File_reg[1][2]
+         REG_FILE/Reg_File_reg[1][6]
+         REG_FILE/Reg_File_reg[1][0]
+         REG_FILE/Reg_File_reg[2][7]
+         ALU/ALU_OUT_reg[7]
+         ALU/ALU_OUT_reg[6]
+         ALU/ALU_OUT_reg[5]
+         ALU/ALU_OUT_reg[4]
+         ALU/ALU_OUT_reg[3]
+         ALU/ALU_OUT_reg[2]
+         ALU/ALU_OUT_reg[1]
+         ALU/ALU_OUT_reg[0]
+         ALU/ALU_OUT_reg[15]
+         ALU/ALU_OUT_reg[14]
+         ALU/ALU_OUT_reg[13]
+         ALU/ALU_OUT_reg[12]
+         ALU/ALU_OUT_reg[11]
+         ALU/ALU_OUT_reg[10]
+         ALU/ALU_OUT_reg[9]
+         ALU/ALU_OUT_reg[8]
+         ALU/OUT_VALID_reg
+         FIFO/Write_Full/internal_reg[3]
+         FIFO/Write_Full/internal_reg[2]
+         FIFO/Write_Full/internal_reg[0]
+         FIFO/Write_Full/internal_reg[1]
+         FIFO/Data_Sync_Write_Block/out_reg[1]
+         FIFO/Data_Sync_Write_Block/out_reg[0]
+         FIFO/Data_Sync_Write_Block/stage_one_reg[3]
+         FIFO/Data_Sync_Write_Block/stage_one_reg[2]
+         FIFO/Data_Sync_Write_Block/stage_one_reg[1]
+         FIFO/Data_Sync_Write_Block/stage_one_reg[0]
+         FIFO/Data_Sync_Write_Block/out_reg[3]
+         FIFO/Data_Sync_Write_Block/out_reg[2]
+         FIFO/Read_Empty/internal_reg[3]
+         FIFO/Read_Empty/internal_reg[2]
+         FIFO/Read_Empty/internal_reg[1]
+         FIFO/Read_Empty/internal_reg[0]
+         FIFO/Data_Sync_Read_Block/out_reg[1]
+         FIFO/Data_Sync_Read_Block/out_reg[0]
+         FIFO/Data_Sync_Read_Block/stage_one_reg[3]
+         FIFO/Data_Sync_Read_Block/stage_one_reg[2]
+         FIFO/Data_Sync_Read_Block/stage_one_reg[1]
+         FIFO/Data_Sync_Read_Block/stage_one_reg[0]
+         FIFO/Data_Sync_Read_Block/out_reg[3]
+         FIFO/Data_Sync_Read_Block/out_reg[2]
+         FIFO/Memory/Memory_reg[5][7]
+         FIFO/Memory/Memory_reg[5][6]
+         FIFO/Memory/Memory_reg[5][5]
+         FIFO/Memory/Memory_reg[5][4]
+         FIFO/Memory/Memory_reg[5][3]
+         FIFO/Memory/Memory_reg[5][2]
+         FIFO/Memory/Memory_reg[5][1]
+         FIFO/Memory/Memory_reg[5][0]
+         FIFO/Memory/Memory_reg[1][7]
+         FIFO/Memory/Memory_reg[1][6]
+         FIFO/Memory/Memory_reg[1][5]
+         FIFO/Memory/Memory_reg[1][4]
+         FIFO/Memory/Memory_reg[1][3]
+         FIFO/Memory/Memory_reg[1][2]
+         FIFO/Memory/Memory_reg[1][1]
+         FIFO/Memory/Memory_reg[1][0]
+         FIFO/Memory/Memory_reg[7][7]
+         FIFO/Memory/Memory_reg[7][6]
+         FIFO/Memory/Memory_reg[7][5]
+         FIFO/Memory/Memory_reg[7][4]
+         FIFO/Memory/Memory_reg[7][3]
+         FIFO/Memory/Memory_reg[7][2]
+         FIFO/Memory/Memory_reg[7][1]
+         FIFO/Memory/Memory_reg[7][0]
+         FIFO/Memory/Memory_reg[3][7]
+         FIFO/Memory/Memory_reg[3][6]
+         FIFO/Memory/Memory_reg[3][5]
+         FIFO/Memory/Memory_reg[3][4]
+         FIFO/Memory/Memory_reg[3][3]
+         FIFO/Memory/Memory_reg[3][2]
+         FIFO/Memory/Memory_reg[3][1]
+         FIFO/Memory/Memory_reg[3][0]
+         FIFO/Memory/Memory_reg[6][7]
+         FIFO/Memory/Memory_reg[6][6]
+         FIFO/Memory/Memory_reg[6][5]
+         FIFO/Memory/Memory_reg[6][4]
+         FIFO/Memory/Memory_reg[6][3]
+         FIFO/Memory/Memory_reg[6][2]
+         FIFO/Memory/Memory_reg[6][1]
+         FIFO/Memory/Memory_reg[6][0]
+         FIFO/Memory/Memory_reg[2][7]
+         FIFO/Memory/Memory_reg[2][6]
+         FIFO/Memory/Memory_reg[2][5]
+         FIFO/Memory/Memory_reg[2][4]
+         FIFO/Memory/Memory_reg[2][3]
+         FIFO/Memory/Memory_reg[2][2]
+         FIFO/Memory/Memory_reg[2][1]
+         FIFO/Memory/Memory_reg[2][0]
+         FIFO/Memory/Memory_reg[4][7]
+         FIFO/Memory/Memory_reg[4][6]
+         FIFO/Memory/Memory_reg[4][5]
+         FIFO/Memory/Memory_reg[4][4]
+         FIFO/Memory/Memory_reg[4][3]
+         FIFO/Memory/Memory_reg[4][2]
+         FIFO/Memory/Memory_reg[4][1]
+         FIFO/Memory/Memory_reg[4][0]
+         FIFO/Memory/Memory_reg[0][7]
+         FIFO/Memory/Memory_reg[0][6]
+         FIFO/Memory/Memory_reg[0][5]
+         FIFO/Memory/Memory_reg[0][4]
+         FIFO/Memory/Memory_reg[0][3]
+         FIFO/Memory/Memory_reg[0][2]
+         FIFO/Memory/Memory_reg[0][1]
+         FIFO/Memory/Memory_reg[0][0]
+         UART/RX/Sr/start_glitch_reg
+         UART/RX/Sp/stop_error_reg
+         UART/RX/F/current_state_reg[1]
+         UART/RX/F/current_state_reg[0]
+         UART/RX/F/current_state_reg[2]
+         UART/RX/EBC/bit_count_reg[0]
+         UART/RX/EBC/bit_count_reg[1]
+         UART/RX/EBC/bit_count_reg[2]
+         UART/RX/EBC/bit_count_reg[3]
+         UART/RX/EBC/edge_count_reg[0]
+         UART/RX/EBC/edge_count_reg[1]
+         UART/RX/EBC/edge_count_reg[2]
+         UART/RX/EBC/edge_count_reg[4]
+         UART/RX/EBC/edge_count_reg[3]
+         UART/RX/DS/sampled_reg[2]
+         UART/RX/DS/sampled_reg[1]
+         UART/RX/DS/sampled_reg[0]
+         UART/RX/DZ/P_DATA_reg[1]
+         UART/RX/DZ/P_DATA_reg[4]
+         UART/RX/DZ/P_DATA_reg[0]
+         UART/RX/DZ/P_DATA_reg[3]
+         UART/RX/DZ/P_DATA_reg[6]
+         UART/RX/DZ/P_DATA_reg[2]
+         UART/RX/DZ/bit_reg[2]
+         UART/RX/DZ/P_DATA_reg[7]
+         UART/RX/DZ/bit_reg[0]
+         UART/RX/DZ/bit_reg[1]
+         UART/RX/DZ/P_DATA_reg[5]
+         UART/RX/P/par_error_reg
+         UART/TX/F1/current_state_reg[2]
+         UART/TX/F1/current_state_reg[0]
+         UART/TX/F1/current_state_reg[1]
+         UART/TX/S1/internal_reg[5]
+         UART/TX/S1/internal_reg[1]
+         UART/TX/S1/internal_reg[0]
+         UART/TX/S1/internal_reg[7]
+         UART/TX/S1/internal_reg[3]
+         UART/TX/S1/internal_reg[6]
+         UART/TX/S1/internal_reg[2]
+         UART/TX/S1/internal_reg[4]
+         UART/TX/S1/counter_reg[2]
+         UART/TX/S1/Ser_done_reg
+         UART/TX/S1/counter_reg[1]
+         UART/TX/S1/counter_reg[0]
+         UART/TX/S1/Ser_data_reg
+         UART/TX/P1/parity_reg
+         UART/TX/M1/TX_OUT_reg
+
+....Inferring feed-through connections....
+Information: Test design rule checking completed. (TEST-123)
+  Running test coverage estimation...
+ 16086 faults were added to fault list.
+ ATPG performed for stuck fault model using internal pattern source.
+ ----------------------------------------------------------
+ #patterns     #faults     #ATPG faults  test      process
+ stored     detect/active  red/au/abort  coverage  CPU time
+ ---------  -------------  ------------  --------  --------
+ Begin deterministic ATPG: #uncollapsed_faults=13158, abort_limit=10...
+ 0            7476   5682         0/0/0    64.24%      0.00
+ 0            1691   3989         1/0/0    74.78%      0.00
+ 0             968   3020         2/0/1    80.81%      0.00
+ 0             540   2476         4/0/2    84.20%      0.00
+ 0             479   1993         6/0/2    87.20%      0.01
+ 0             347   1641         9/0/5    89.39%      0.02
+ 0             202   1436        12/0/7    90.67%      0.02
+ 0             250   1178        16/1/8    92.27%      0.02
+ 0             134   1035       23/1/11    93.16%      0.02
+ 0             147    882       28/1/14    94.11%      0.03
+ 0             116    758       34/1/19    94.88%      0.03
+ 0             100    617       58/1/22    95.75%      0.03
+ 0              86    455       98/2/26    96.75%      0.03
+ 0              69    368      108/3/28    97.28%      0.04
+ 0              53    292      120/6/32    97.74%      0.05
+ 0              55    219     128/10/36    98.14%      0.05
+ 0              62    140     138/11/41    98.63%      0.06
+ 0              58     71     148/11/43    99.06%      0.06
+ 
+            Pattern Summary Report
+ -----------------------------------------------
+ #internal patterns                           0
+ -----------------------------------------------
+ 
+
+     Uncollapsed Stuck Fault Summary Report
+ -----------------------------------------------
+ fault class                     code   #faults
+ ------------------------------  ----  ---------
+ Detected                         DT      15670
+ Possibly detected                PT          0
+ Undetectable                     UD        268
+ ATPG untestable                  AU         77
+ Not detected                     ND         71
+ -----------------------------------------------
+ total faults                             16086
+ test coverage                            99.06%
+ -----------------------------------------------
+  Information: The test coverage above may be inferior
+               than the real test coverage with customized
+               protocol and test simulation library.
+1
