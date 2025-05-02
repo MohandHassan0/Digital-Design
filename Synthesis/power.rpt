@@ -1,0 +1,80 @@
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : SYS_TOP
+Version: K-2015.06
+Date   : Wed Oct 23 21:52:23 2024
+****************************************
+
+
+Library(s) Used:
+
+    scmetro_tsmc_cl013g_rvt_ss_1p08v_125c (File: /home/IC/tsmc_fb_cl013g_sc/aci/sc-m/synopsys/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db)
+
+
+Operating Conditions: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c   Library: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.08 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+SYS_TOP                                6.06e-03    0.189 1.40e+07    0.209 100.0
+  ALU_GATING_CLK (CLK_GATING)          1.51e-03 2.04e-03 2.25e+04 3.57e-03   1.7
+  ALU (ALU_16_bit_OPERAND_WIDTH8_OPCODE_WIDTH4_RESULT_WIDTH16)
+                                          0.000 1.22e-02 4.21e+06 1.64e-02   7.9
+    mult_26 (ALU_16_bit_OPERAND_WIDTH8_OPCODE_WIDTH4_RESULT_WIDTH16_DW02_mult_0)
+                                          0.000    0.000 1.65e+06 1.65e-03   0.8
+    add_9 (ALU_16_bit_OPERAND_WIDTH8_OPCODE_WIDTH4_RESULT_WIDTH16_DW01_add_0)
+                                          0.000    0.000 2.05e+05 2.05e-04   0.1
+    sub_10 (ALU_16_bit_OPERAND_WIDTH8_OPCODE_WIDTH4_RESULT_WIDTH16_DW01_sub_0)
+                                          0.000    0.000 2.48e+05 2.48e-04   0.1
+    div_29 (ALU_16_bit_OPERAND_WIDTH8_OPCODE_WIDTH4_RESULT_WIDTH16_DW_div_uns_0)
+                                          0.000    0.000 1.24e+06 1.24e-03   0.6
+  REG_FILE (RAM)                       1.93e-03 9.91e-02 3.13e+06    0.104  49.9
+  CTRL_UNIT (SYS_CTRL)                    0.000 5.76e-03 4.45e+05 6.20e-03   3.0
+  UART (UART_TOP)                      4.52e-04 2.12e-03 2.70e+06 5.27e-03   2.5
+    TX (UART_TX)                       1.29e-04 1.75e-04 5.14e+05 8.17e-04   0.4
+      M1 (MUX)                         1.38e-08 4.76e-06 4.19e+04 4.67e-05   0.0
+      P1 (parity_checker)              6.59e-09 4.97e-06 1.10e+05 1.15e-04   0.1
+      S1 (Serializer)                  3.45e-08 1.00e-04 2.67e+05 3.67e-04   0.2
+      F1 (FSM)                         6.39e-06 5.27e-05 9.00e+04 1.49e-04   0.1
+    RX (UART_RX)                       3.10e-04 1.93e-03 2.16e+06 4.40e-03   2.1
+      P (parity_check)                    0.000 9.82e-05 1.29e+05 2.27e-04   0.1
+      DZ (deserializer)                2.39e-05 6.36e-04 2.19e+05 8.78e-04   0.4
+      DS (data_sampling)               1.06e-05 1.89e-04 5.85e+05 7.85e-04   0.4
+      EBC (edge_bit_counter)           2.21e-05 5.31e-04 3.16e+05 8.69e-04   0.4
+      F (FSM_RX)                       4.77e-05 3.14e-04 8.26e+05 1.19e-03   0.6
+      Sp (stop_check)                     0.000 9.82e-05 3.37e+04 1.32e-04   0.1
+      Sr (start_check)                    0.000 5.59e-05 2.12e+04 7.71e-05   0.0
+  RX_CLK_DIV (ClkDiv_1)                2.02e-04 5.77e-04 5.39e+05 1.32e-03   0.6
+    add_49 (ClkDiv_1_DW01_inc_0)          0.000    0.000 8.37e+04 8.37e-05   0.0
+  CLK_DIV_N (CLKDIV_MUX)                  0.000    0.000 4.49e+04 4.49e-05   0.0
+  TX_CLK_DIV (ClkDiv_0)                6.91e-06 5.07e-04 5.39e+05 1.05e-03   0.5
+    add_49 (ClkDiv_0_DW01_inc_0)          0.000    0.000 8.37e+04 8.37e-05   0.0
+  PULSE_GENERATOR (PULSE_GEN)             0.000 9.95e-06 2.32e+04 3.31e-05   0.0
+  FIFO (fifo_top_width8)               1.22e-03 5.50e-02 2.08e+06 5.84e-02  28.0
+    Memory (fifo_memory_data_width8)   9.11e-04 4.63e-02 1.53e+06 4.87e-02  23.3
+    Data_Sync_Read_Block (data_sync_fifo_1)
+                                          0.000 3.98e-05 7.48e+04 1.15e-04   0.1
+    Read_Empty (fifo_rptr_empty)       1.87e-05 5.13e-05 1.95e+05 2.65e-04   0.1
+    Data_Sync_Write_Block (data_sync_fifo_0)
+                                          0.000 5.76e-03 8.23e+04 5.84e-03   2.8
+    Write_Full (fifo_wptr_full)        9.79e-06 2.89e-03 1.94e+05 3.10e-03   1.5
+  DATA_SYNC (Data_Sync_NUM_STAGES2_BUS_WIDTH8)
+                                          0.000 8.64e-03 1.72e+05 8.81e-03   4.2
+  D2 (RST_Sync_NUM_STAGES2_1)          6.44e-06 2.35e-04 2.40e+04 2.66e-04   0.1
+  D1 (RST_Sync_NUM_STAGES2_0)          1.30e-05 2.24e-03 2.53e+04 2.28e-03   1.1
+1
